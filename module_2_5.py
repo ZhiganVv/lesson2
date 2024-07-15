@@ -2,7 +2,7 @@ def get_matrix(n, m, value):
     matrix = []
     for i in range(n):
         a = []
-        matrix.append([a])
+        matrix.append(a)
         for j in range(m):
             a.append(value)
     return matrix
